@@ -1,15 +1,13 @@
-using TestItemMenu
 using TestItemRunner
 
-@testitem "test1" begin
-    println("testing...")
+@testitem "test" begin
+    @test true
 end
-@testitem "test2" begin
-    println("testing...")
+
+@testitem "basic_menu" begin
+    using TestItemMenu: basic_test_menu
+    basic_test_menu(".."; verbose=false, menutype="test")
+    @test true
 end
-@testitem "test3" begin
-    println("testing...")
-end
-@testitem "test4" begin
-    println("testing...")
-end
+
+@run_package_tests
