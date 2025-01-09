@@ -1,0 +1,19 @@
+name = "TestItemMenu"
+uuid = "35febbac-1bc4-4e43-a085-09147ef938ad"
+authors = ["sandyspiers <sandy.spiers@curtin.edu.au> and contributors"]
+version = "0.1.0-DEV"
+
+[deps]
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+
+[compat]
+REPL = "1.11.0"
+TestItemRunner = "1.0.6"
+julia = "1.10.7"
+
+[extras]
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+
+[targets]
+test = ["TestItemRunner"]
