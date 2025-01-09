@@ -8,8 +8,8 @@ REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
 
 [compat]
-REPL = "1.11.0"
-Test = "1.11.0"
+REPL = "1.10.7"
+Test = "1.10.7"
 TestItemRunner = "1.0.6"
 julia = "1.10.7"
 
